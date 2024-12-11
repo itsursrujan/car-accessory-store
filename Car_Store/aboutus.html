@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Car Accessories Store</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Car Accessories Store</h1>
+    </header>
+    <nav> <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="mission">
+            <h2>Our Mission</h2>
+            <p>Providing quality car accessories that enhance performance, style, and comfort.</p>
+        </section>
+        <section class="history">
+            <h2>Our History</h2>
+            <p>Founded in 2024, we’ve grown into a trusted name in automotive accessories.</p>
+        </section>
+        <section class="values">
+            <h2>Our Values</h2>
+            <ul>
+                <li>Quality</li>
+                <li>Innovation</li>
+                <li>Customer Satisfaction</li>
+            </ul>
+        </section>
+        
+    <footer>
+        <p>© 2024 Car Accessories Store</p>
+    </footer>
+    <script>
+       
+        const teamList = document.querySelector('.team-list');
+        teamMembers.forEach(member => {
+            const memberDiv = document.createElement('div');
+            memberDiv.classList.add('team-member');
+            memberDiv.innerHTML = `<h3>${member.name}</h3><p>${member.role}</p>`;
+            teamList.appendChild(memberDiv);
+        });
+    </script>
+</body>
+</html>
